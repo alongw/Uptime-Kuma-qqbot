@@ -1,0 +1,21 @@
+# 监听端口
+listen_port: 10088
+# 机器人账号
+qq: 1287756886
+# 监控时间（多久监控一次 秒）
+monitor_time: 60
+
+# mirai-api-http 配置（使用ws）
+mirai_api_http:
+  # mirai-api-http 服务器地址
+  host: http://127.0.0.1:8080
+  # mirai-api-http authKey
+  key: 123456
+Uptime_Kuma:
+  # Uptime-Kuma 服务器地址 后面不需要加斜杠
+  host: http://www.gov.cn
+  # 需要监听的页面
+  listen_page: 
+    - test
+    - test2
+    - adminserver
