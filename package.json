@@ -1,0 +1,8 @@
+{
+  "name": "status-qq-bot",
+  "version": "1.0.0",
+  "main": "scr/app.ts",
+  "repository": "https://github.com/alongw/Uptime-Kuma-qqbot",
+  "author": "alongw <alongw@alongw.cn>",
+  "license": "MIT"
+}
