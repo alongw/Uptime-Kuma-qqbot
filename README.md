@@ -1,6 +1,6 @@
 # nia-status-bot（Uptime-Kuma-qqbot）
 
-这是一个基于 [Uptime Kuma](https://github.com/louislam/uptime-kuma) 以及 [mirai-api-http](https://github.com/project-mirai/mirai-api-http) 开发的 [QQ](https://im.qq.com/) 机器人
+这是一个基于 [Uptime Kuma](https://github.com/louislam/uptime-kuma) 以及 [mirai-api-http](https://github.com/project-mirai/mirai-api-http) 开发的 [QQ](https://im.qq.com/) 机器人插件
 
 ## 有什么用？
 
