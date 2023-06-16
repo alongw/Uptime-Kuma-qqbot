@@ -14,9 +14,9 @@ export const getStatus = () => {
       `/api/status-page/heartbeat/${e}`
     )
     // 处理数据
-    const errServer = Object.keys(res.uptimeList)
+    const errServer = Object.keys(res.heartbeatList)
       .reduce((result, key) => {
-        if (res.uptimeList[key] === 0) {
+        if (res.heartbeatList[key][res.heartbeatList[key].length - 1].status === 0) {
           result.push(key)
         }
         return result
