@@ -16,7 +16,7 @@ mirai-api-http 官方安装教程：https://docs.mirai.mamoe.net/mirai-api-http/
 
 推荐使用手动安装
 
-- 运行 [Mirai Consoleopen in new window](https://github.com/mamoe/mirai-console) 生成 plugins 文件夹
+- 运行 [Mirai Console](https://github.com/mamoe/mirai-console) 生成 plugins 文件夹
 
 - 从 [Releases](https://github.com/project-mirai/mirai-api-http/releases) 下载 `jar` 并将其放入 `plugins` 文件夹中
 - 编辑 `config/MiraiApiHttp/setting.yml` 配置文件 (没有则自行创建)
