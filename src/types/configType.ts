@@ -4,6 +4,7 @@ interface Config {
   monitor_time: number
   mirai_api_http: {
     host: string
+    port: number
     key: string
   }
   Uptime_Kuma: {

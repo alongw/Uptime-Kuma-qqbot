@@ -2,7 +2,7 @@ interface heartbeat {
   heartbeatList: {
     [key: string]: [
       {
-        status: number
+        status: number | undefined
         time: string
         msg: string
         ping: number

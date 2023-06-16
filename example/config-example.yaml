@@ -2,13 +2,15 @@
 listen_port: 10088
 # 机器人账号
 qq: 1287756886
-# 监控时间（多久监控一次 秒）
-monitor_time: 60
+# 监控时间（多久监控一次 毫秒）
+monitor_time: 60000
 
 # mirai-api-http 配置（使用ws）
 mirai_api_http:
-  # mirai-api-http 服务器地址
-  host: http://127.0.0.1:8080
+  # mirai-api-http 服务器地址 不需要加http/https,后面也不需要加斜杠
+  host: 10.0.0.200
+  # mirai-api-http 服务器端口
+  port: 8080
   # mirai-api-http authKey
   key: 123456
 Uptime_Kuma:
